@@ -331,9 +331,9 @@ contract ParameterizedToken is CappedToken {
 
 }
 
-contract GreToken is ParameterizedToken {
+contract RiskToken is ParameterizedToken {
 
-    function GreToken() public ParameterizedToken("Global Risk Exchange Token", "GRE", 18, 10000000000) {
+    function RiskToken() public ParameterizedToken("Global Risk Exchange Token", "RISK", 18, 10000000000) {
     }
 
 }
